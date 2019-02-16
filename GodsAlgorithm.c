@@ -16,6 +16,8 @@ void main(){
 	int green [3][3] = {{4,4,4},{4,4,4},{4,4,4}};
 	int yellow [3][3] = {{5,5,5},{5,5,5},{5,5,5}};
 	int white [3][3] = {{6,6,6},{6,6,6},{6,6,6}};
+	
+	printf("compile success");
 }
 
 void R(int red[3][3], int yellow[3][3], int green[3][3], int white[3][3], int blue[3][3]){
