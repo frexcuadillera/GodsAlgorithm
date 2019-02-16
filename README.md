@@ -1,6 +1,6 @@
 # GodsAlgorithm
 
-Algorithm to solve Rubik's Cube using 2d arrays
+Algorithm to solve Rubik's Cube using array
 
 Following the standard WCA color scheme:
 
