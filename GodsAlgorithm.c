@@ -16,4 +16,50 @@ void main(){
 	int white [3][3] = {{6,6,6},{6,6,6},{6,6,6}};
 }
 
-void R(int blue[3][3],);
+void R(int blue[3][3], int yellow[3][3], int green[3][3], int white[3][3]){
+
+}
+
+void RPrime(int blue[3][3], int yellow[3][3], int green[3][3], int white[3][3]){
+	
+}
+
+void L(){
+	
+}
+
+void LPrime(){
+	
+}
+
+void F(){
+}
+
+void FPrime(){
+	
+}
+
+void B(){
+	
+}
+
+void BPrime(){
+	
+}
+
+void U(){
+	
+}
+
+void UPrime(){
+	
+}
+
+void D(){
+	
+}
+
+void DPrime(){
+	
+}
+
