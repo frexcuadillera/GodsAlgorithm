@@ -67,7 +67,7 @@ void R(int cube[54]){
 
 void RPrime(int cube[54]){
 	/*
-	int temp1 = cube[], temp2 = cube[], temp3 = cube[];
+	int temp1 = cube[2], temp2 = cube[5], temp3 = cube[8];
 	
 	cube[]  = cube[];
 	cube[]  = cube[];
