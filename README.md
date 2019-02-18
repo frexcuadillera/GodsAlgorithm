@@ -10,4 +10,4 @@ Each color piece are indexed from 0 to 53, as you can see, center pieces indexed
 
 ![](https://raw.githubusercontent.com/frexcuadillera/GodsAlgorithm/master/pics/indexes.png)
 
-Each face color have same value assigned
+Each face color have same value assigned:
