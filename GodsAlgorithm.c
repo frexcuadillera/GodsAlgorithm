@@ -17,7 +17,7 @@ void main(){
 	printf("\nSolved state array: "); for(int i = 0; i < 54; i++){printf("%d", cube[i]);}
 	
 	//test move
-	R(cube);
+	LPrime(cube);
 	
 	//print array
 	printf("\nArray: "); for(int i = 0; i < 54; i++){printf("%d", cube[i]);}
@@ -45,10 +45,10 @@ void R(int cube[54]){
 	cube[47] = cube[42];
 	cube[50] = cube[39];
 	cube[53] = cube[36];
-
-	cube[36] = temp3;
-	cube[39] = temp2;
+	
 	cube[42] = temp1;
+	cube[39] = temp2;
+	cube[36] = temp3;
 
 	int tempA = cube[28], tempB = cube[29];
 
@@ -66,111 +66,105 @@ void R(int cube[54]){
 }
 
 void RPrime(int cube[54]){
-	/*
 	int temp1 = cube[2], temp2 = cube[5], temp3 = cube[8];
 	
-	cube[]  = cube[];
-	cube[]  = cube[];
-	cube[]  = cube[];
+	cube[2] = cube[42];
+	cube[5] = cube[39];
+	cube[8] = cube[36];
+
+	cube[42] = cube[47];
+	cube[39] = cube[50];
+	cube[36] = cube[53];
+		
+	cube[47] = cube[20]; 
+	cube[50] = cube[23];
+	cube[53] = cube[26];
+		
+	cube[20]  = temp1;
+	cube[23]  = temp2;
+	cube[26]  = temp3;
 	
-	cube[] = cube[]; 
-	cube[] = cube[];
-	cube[] = cube[];
+	int tempA = cube[27], tempB = cube[28];
 	
-	cube[] = cube[];
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[27] = cube[29];
+	cube[28] = cube[32];
 	
-	cube[] = temp3;
-	cube[] = temp2;
-	cube[] = temp1;
+	cube[29] = cube[35];
+	cube[32] = cube[34];
 	
-	int tempA = cube[], tempB = cube[];
+	cube[35] = cube[33];
+	cube[34] = cube[30];
 	
-	cube[] = cube[];
-	cube[] = cube[];
-	
-	cube[] = cube[];
-	cube[] = cube[];
-	
-	cube[] = cube[];
-	cube[] = cube[];
-	
-	cube[] = tempA;
-	cube[] = tempB;
-	*/
+	cube[33] = tempA;
+	cube[30] = tempB;	
 }
 
 void L(int cube[54]){
-	/*
-	int temp1 = cube[], temp2 = cube[], temp3 = cube[];
+	int temp1 = cube[0], temp2 = cube[3], temp3 = cube[6];
 	
-	cube[]  = cube[];
-	cube[]  = cube[];
-	cube[]  = cube[];
+	cube[0]  = cube[44];
+	cube[3]  = cube[41];
+	cube[6]  = cube[38];
 	
-	cube[] = cube[]; 
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[44] = cube[45]; 
+	cube[41] = cube[48];
+	cube[38] = cube[51];
 	
-	cube[] = cube[];
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[45] = cube[18];
+	cube[48] = cube[21];
+	cube[51] = cube[24];
 	
-	cube[] = temp3;
-	cube[] = temp2;
-	cube[] = temp1;
+	cube[18] = temp1;
+	cube[21] = temp2;
+	cube[24] = temp3;
 	
-	int tempA = cube[], tempB = cube[];
+	int tempA = cube[10], tempB = cube[11];
 	
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[10] = cube[12];
+	cube[11] = cube[9];
 	
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[12] = cube[16];
+	cube[9] = cube[15];
 	
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[16] = cube[14];
+	cube[15] = cube[17];
 	
-	cube[] = tempA;
-	cube[] = tempB;
-	*/	
+	cube[14] = tempA;
+	cube[17] = tempB;
 }
 
 void LPrime(int cube[54]){
-	/*
-	int temp1 = cube[], temp2 = cube[], temp3 = cube[];
+	int temp1 = cube[0], temp2 = cube[3], temp3 = cube[6];
 	
-	cube[]  = cube[];
-	cube[]  = cube[];
-	cube[]  = cube[];
+	cube[0]  = cube[18];
+	cube[3]  = cube[21];
+	cube[6]  = cube[24];
 	
-	cube[] = cube[]; 
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[18] = cube[45]; 
+	cube[21] = cube[48];
+	cube[24] = cube[51];
 	
-	cube[] = cube[];
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[45] = cube[44];
+	cube[48] = cube[41];
+	cube[51] = cube[38];
 	
-	cube[] = temp3;
-	cube[] = temp2;
-	cube[] = temp1;
+	cube[44] = temp1;
+	cube[41] = temp2;
+	cube[38] = temp3;
 	
-	int tempA = cube[], tempB = cube[];
+	int tempA = cube[9], tempB = cube[10];
 	
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[9] = cube[11];
+	cube[10] = cube[14];
 	
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[11] = cube[17];
+	cube[14] = cube[16];
 	
-	cube[] = cube[];
-	cube[] = cube[];
+	cube[17] = cube[15];
+	cube[16] = cube[12];
 	
-	cube[] = tempA;
-	cube[] = tempB;
- */	
+	cube[15] = tempA;
+	cube[12] = tempB;	
 }
 
 void F(int cube[54]){
